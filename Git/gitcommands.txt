@@ -1,6 +1,9 @@
-git init # initialize an existing directory as a Git repository
-git status # status of the file where it is
-git add . # add a file as it looks now to our next commit (stage)
-git commit -m "Comment" #commit our staged content as a new commit snapshot
-git config --global user.name “[Name]” #set a name that is identifiable for credit when review version history
+git config --global user.name “[Name]”                                   # Set a name that is identifiable for credit when review version history
+git config --global user.email “[valid-email]”                           # Set an email address that will be associated with each history marker
+git clone [url]                                                          # Retrieve an entire repository from a hosted location via URL
+git init                                                                 # Initialize an existing directory as a Git repository
+git status                                                               # Status of the file where it is
+git add .                                                                # Add a file as it looks now to our next commit (stage)
+git commit -m "Comment"                                                  # Commit our staged content as a new commit snapshot
+
 
