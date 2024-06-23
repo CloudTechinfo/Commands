@@ -1,5 +1,5 @@
-git init
-git status
-git add . 
-git commit -m "updates"
+git init # initialize an existing directory as a Git repository
+git status # status of the file where it is
+git add . # add a file as it looks now to our next commit (stage)
+git commit -m "Comment" #commit our staged content as a new commit snapshot
 
